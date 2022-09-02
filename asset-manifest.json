@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/road-rescue-site/static/css/main.e2080ff6.css",
+    "main.js": "/road-rescue-site/static/js/main.91ecee3f.js",
+    "static/js/787.403cccbf.chunk.js": "/road-rescue-site/static/js/787.403cccbf.chunk.js",
+    "static/media/road-into-city.jpg": "/road-rescue-site/static/media/road-into-city.6c806ee839e9a171b45e.jpg",
+    "static/media/social-proof-image.jpg": "/road-rescue-site/static/media/social-proof-image.6de7aa5a26031869d161.jpg",
+    "static/media/rr-logo.svg": "/road-rescue-site/static/media/rr-logo.23024fd06c850e57e6cc018d7c0ae1ff.svg",
+    "index.html": "/road-rescue-site/index.html",
+    "main.e2080ff6.css.map": "/road-rescue-site/static/css/main.e2080ff6.css.map",
+    "main.91ecee3f.js.map": "/road-rescue-site/static/js/main.91ecee3f.js.map",
+    "787.403cccbf.chunk.js.map": "/road-rescue-site/static/js/787.403cccbf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2080ff6.css",
+    "static/js/main.91ecee3f.js"
+  ]
+}
