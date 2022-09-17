@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/road-rescue-site/static/css/main.a4161d60.css",
-    "main.js": "/road-rescue-site/static/js/main.922f28b5.js",
+    "main.css": "/road-rescue-site/static/css/main.0ae7f1e6.css",
+    "main.js": "/road-rescue-site/static/js/main.6b58bc8d.js",
     "static/media/road-into-city.webp": "/road-rescue-site/static/media/road-into-city.2d6f2ca38dcdc7bc57ff.webp",
     "static/media/accident.jpg": "/road-rescue-site/static/media/accident.2eedeff519fbd9afa48e.jpg",
     "static/media/save-money.webp": "/road-rescue-site/static/media/save-money.7587a62ee6c48297e436.webp",
     "static/media/save-time.webp": "/road-rescue-site/static/media/save-time.65e9af37374c5fe40eda.webp",
     "static/media/rrlogo.webp": "/road-rescue-site/static/media/rrlogo.37460bfcb0674e17c54e.webp",
     "index.html": "/road-rescue-site/index.html",
-    "main.a4161d60.css.map": "/road-rescue-site/static/css/main.a4161d60.css.map",
-    "main.922f28b5.js.map": "/road-rescue-site/static/js/main.922f28b5.js.map"
+    "main.0ae7f1e6.css.map": "/road-rescue-site/static/css/main.0ae7f1e6.css.map",
+    "main.6b58bc8d.js.map": "/road-rescue-site/static/js/main.6b58bc8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4161d60.css",
-    "static/js/main.922f28b5.js"
+    "static/css/main.0ae7f1e6.css",
+    "static/js/main.6b58bc8d.js"
   ]
 }
