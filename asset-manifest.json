@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/road-rescue-site/static/css/main.df2acefe.css",
-    "main.js": "/road-rescue-site/static/js/main.a483d290.js",
+    "main.css": "/road-rescue-site/static/css/main.d1b850e3.css",
+    "main.js": "/road-rescue-site/static/js/main.f8a72bcc.js",
+    "static/media/rock.png": "/road-rescue-site/static/media/rock.e48cfd749a9a95da12bf.png",
+    "static/media/emulsion.png": "/road-rescue-site/static/media/emulsion.091e9f8e724742826679.png",
+    "static/media/workers.webp": "/road-rescue-site/static/media/workers.af73cb5714571b031993.webp",
     "static/media/road-into-city.webp": "/road-rescue-site/static/media/road-into-city.2d6f2ca38dcdc7bc57ff.webp",
+    "static/media/worker.webp": "/road-rescue-site/static/media/worker.d66bc2f29c528a63a344.webp",
     "static/media/headshot.webp": "/road-rescue-site/static/media/headshot.01c0591f4d8010c18b55.webp",
-    "static/media/accident.jpg": "/road-rescue-site/static/media/accident.2eedeff519fbd9afa48e.jpg",
+    "static/media/rock.webp": "/road-rescue-site/static/media/rock.d7ec24bedc288b017bff.webp",
     "static/media/save-money.webp": "/road-rescue-site/static/media/save-money.7587a62ee6c48297e436.webp",
     "static/media/save-time.webp": "/road-rescue-site/static/media/save-time.65e9af37374c5fe40eda.webp",
-    "static/media/rrlogo.webp": "/road-rescue-site/static/media/rrlogo.37460bfcb0674e17c54e.webp",
+    "static/media/rrlogo.webp": "/road-rescue-site/static/media/rrlogo.c95d7cee8bc67786ff03.webp",
+    "static/media/emulsion.webp": "/road-rescue-site/static/media/emulsion.1009cf64f8b4de78e59b.webp",
     "index.html": "/road-rescue-site/index.html",
-    "main.df2acefe.css.map": "/road-rescue-site/static/css/main.df2acefe.css.map",
-    "main.a483d290.js.map": "/road-rescue-site/static/js/main.a483d290.js.map"
+    "main.d1b850e3.css.map": "/road-rescue-site/static/css/main.d1b850e3.css.map",
+    "main.f8a72bcc.js.map": "/road-rescue-site/static/js/main.f8a72bcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.df2acefe.css",
-    "static/js/main.a483d290.js"
+    "static/css/main.d1b850e3.css",
+    "static/js/main.f8a72bcc.js"
   ]
 }
