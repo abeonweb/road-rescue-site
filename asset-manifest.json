@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/road-rescue-site/static/css/main.3924ec37.css",
-    "main.js": "/road-rescue-site/static/js/main.bb0c1b4b.js",
+    "main.css": "/road-rescue-site/static/css/main.214fe135.css",
+    "main.js": "/road-rescue-site/static/js/main.1ef92e8c.js",
     "static/media/rock.png": "/road-rescue-site/static/media/rock.e48cfd749a9a95da12bf.png",
     "static/media/workers.webp": "/road-rescue-site/static/media/workers.af73cb5714571b031993.webp",
     "static/media/road-into-city.webp": "/road-rescue-site/static/media/road-into-city.2d6f2ca38dcdc7bc57ff.webp",
     "static/media/emulsionbarrel3.png": "/road-rescue-site/static/media/emulsionbarrel3.674a48f81e0953f541b6.png",
     "static/media/worker.webp": "/road-rescue-site/static/media/worker.d66bc2f29c528a63a344.webp",
     "static/media/headshot.webp": "/road-rescue-site/static/media/headshot.01c0591f4d8010c18b55.webp",
+    "static/media/accident.webp": "/road-rescue-site/static/media/accident.bd73f3a6606571a94532.webp",
     "static/media/save-money.webp": "/road-rescue-site/static/media/save-money.7587a62ee6c48297e436.webp",
     "static/media/save-time.webp": "/road-rescue-site/static/media/save-time.65e9af37374c5fe40eda.webp",
     "static/media/rrlogo.webp": "/road-rescue-site/static/media/rrlogo.c95d7cee8bc67786ff03.webp",
     "static/media/instagram.svg": "/road-rescue-site/static/media/instagram.4dfb99470ae8103ae447e5eea6446d58.svg",
     "static/media/twitter.svg": "/road-rescue-site/static/media/twitter.8a1d1501ecf4501854752bdf47049592.svg",
+    "static/media/location.svg": "/road-rescue-site/static/media/location.a74d1acead0d4255c90386b8c07fc830.svg",
     "index.html": "/road-rescue-site/index.html",
     "static/media/facebook.svg": "/road-rescue-site/static/media/facebook.c5b4826495f8cc539a956cd4c20c5a94.svg",
-    "main.3924ec37.css.map": "/road-rescue-site/static/css/main.3924ec37.css.map",
-    "main.bb0c1b4b.js.map": "/road-rescue-site/static/js/main.bb0c1b4b.js.map"
+    "main.214fe135.css.map": "/road-rescue-site/static/css/main.214fe135.css.map",
+    "main.1ef92e8c.js.map": "/road-rescue-site/static/js/main.1ef92e8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3924ec37.css",
-    "static/js/main.bb0c1b4b.js"
+    "static/css/main.214fe135.css",
+    "static/js/main.1ef92e8c.js"
   ]
 }
