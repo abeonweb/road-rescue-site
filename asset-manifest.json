@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/road-rescue-site/static/css/main.28d5ba95.css",
-    "main.js": "/road-rescue-site/static/js/main.0bc41a45.js",
+    "main.css": "/road-rescue-site/static/css/main.764b5df6.css",
+    "main.js": "/road-rescue-site/static/js/main.8ae5d02b.js",
     "static/media/rock.png": "/road-rescue-site/static/media/rock.e48cfd749a9a95da12bf.png",
     "static/media/rock_bg.png": "/road-rescue-site/static/media/rock_bg.a4662f3ba11e21e948a8.png",
     "static/media/workers.webp": "/road-rescue-site/static/media/workers.af73cb5714571b031993.webp",
@@ -10,6 +10,7 @@
     "static/media/worker.webp": "/road-rescue-site/static/media/worker.d66bc2f29c528a63a344.webp",
     "static/media/emulsionbarrel_bg.png": "/road-rescue-site/static/media/emulsionbarrel_bg.63fae27682dba674c420.png",
     "static/media/headshot.webp": "/road-rescue-site/static/media/headshot.01c0591f4d8010c18b55.webp",
+    "static/media/rrlogo.png": "/road-rescue-site/static/media/rrlogo.ba0926813a035cabc850.png",
     "static/media/accident.webp": "/road-rescue-site/static/media/accident.bd73f3a6606571a94532.webp",
     "static/media/save-money.webp": "/road-rescue-site/static/media/save-money.7587a62ee6c48297e436.webp",
     "static/media/save-time.webp": "/road-rescue-site/static/media/save-time.65e9af37374c5fe40eda.webp",
@@ -19,11 +20,11 @@
     "static/media/location.svg": "/road-rescue-site/static/media/location.a74d1acead0d4255c90386b8c07fc830.svg",
     "index.html": "/road-rescue-site/index.html",
     "static/media/facebook.svg": "/road-rescue-site/static/media/facebook.c5b4826495f8cc539a956cd4c20c5a94.svg",
-    "main.28d5ba95.css.map": "/road-rescue-site/static/css/main.28d5ba95.css.map",
-    "main.0bc41a45.js.map": "/road-rescue-site/static/js/main.0bc41a45.js.map"
+    "main.764b5df6.css.map": "/road-rescue-site/static/css/main.764b5df6.css.map",
+    "main.8ae5d02b.js.map": "/road-rescue-site/static/js/main.8ae5d02b.js.map"
   },
   "entrypoints": [
-    "static/css/main.28d5ba95.css",
-    "static/js/main.0bc41a45.js"
+    "static/css/main.764b5df6.css",
+    "static/js/main.8ae5d02b.js"
   ]
 }
