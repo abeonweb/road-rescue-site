@@ -1,0 +1,98 @@
+/* =============== CONTACTS =============== */
+.section__contact {
+    min-height: 60vh;
+    padding: 3.5em 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(171, 251, 216, 0.3);
+}
+
+
+.contact--info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+    width: 90%;
+    color: #07715C;
+    margin: 0 0.2em;
+    padding: 0.5em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact--info:first-of-type {
+    border-bottom: 1px solid currentColor;
+}
+
+.contact__title--container {
+    padding-bottom: 0.5em;
+}
+
+.contact--info--title {
+    margin-bottom: 0.5em;
+}
+
+.contact-subtitle {
+    margin-bottom: 1em;
+}
+
+.contact--info>div {
+    width: 100%;
+    padding: 0.5em 1em;
+    border-radius: 0.8em;
+    margin-bottom: 0em;
+    font-size: .9em;
+}
+
+.contact--info--list {
+    list-style: none;
+    padding: 0 1em;
+    font-size: 1.2em;
+}
+
+.contact--info--list li {
+    display: flex;
+    align-items: center;
+}
+
+.contact--info--list li div {
+    display: inline-block;
+}
+
+
+.contact--info--list>li {
+    width: 100%;
+    line-height: 1.4;
+    padding: 0 0 1.5em;
+}
+
+.contact--info--list>li:first-of-type {
+    padding-top: 1.5em;
+}
+
+.contact--icon {
+    width: 1.5em;
+    padding-right: 0.5em;
+}
+
+
+
+@media (min-width: 690px) {
+    .section__contact {
+        flex-direction: row;
+    }
+
+    .contact--info:first-of-type {
+        border-bottom: none;
+        border-right: 1px solid currentColor;
+    }
+    .contact--info:last-of-type {
+        padding-left: 2.5em;
+    }
+
+    .contact--info {
+        width: 50%;
+    }
+}

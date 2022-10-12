@@ -1,0 +1,93 @@
+
+/* =============== TYPOGRAPHY ================ */
+
+.section__management{
+    width: 96%;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--clr-hl);
+}
+
+.section--subtitle{
+    padding: 1.5em 0 0.5em;
+    letter-spacing: 1.5px;
+}
+
+.management-body,
+.about-body{
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+/* =============== LAYOUT ================ */
+.section__management{
+    padding: 3.5em 0.5em 3.5em;
+}
+.management{
+    width: 98%;
+    max-width: 600px;
+    background-color: #f0f8ff;
+    padding: 3em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 4em;    
+    border-radius: 6px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top: 8px solid var(--clr-hl);
+    letter-spacing: 1px;
+}
+
+
+
+.management-info{
+    width: 100%;
+}
+
+.management-name{
+    font-weight: var(--fw-bold);
+    font-size: 2rem;
+    padding: 0.5em 0;
+}
+
+.management-title{
+    color: var(--clr-hl-2);
+    font-weight: var(--fw-bold);
+}
+
+.management-image-container{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+.management-image{
+    width: 100%;
+    border-radius: 6px;
+}
+
+
+@media (min-width: 600px){
+    .management{
+        font-size: 1.2rem;
+        flex-direction: row;
+        border: none;
+        border-left: 8px solid var(--clr-hl);
+        border-radius: 6px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+
+    .management-info{
+        width: 60%;
+    }
+
+    .management-image-container{
+        width: 36%;
+    }
+
+    
+    
+    
+    
+}

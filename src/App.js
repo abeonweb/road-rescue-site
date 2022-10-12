@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import {Routes, Route} from "react-router-dom"
 import './App.css';
+import Home from "./pages/Home"
+import Product from "./pages/Product"
+import About from "./pages/About"
+import Contacts from "./pages/Contacts"
+import Error from './pages/Error';
+import SharedLayout from './pages/SharedLayout';
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Terms from "./pages/Terms";
+import Services from "./components/Services";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route exact path="/road-rescue-site" element={<SharedLayout />} >
+
+          <Route index element={<Home />}/>
+          <Route path="product" element={<Product />}/>
+          <Route path="services" element={<Services />}/>
+          <Route path="about" element={<About />}/>
+          <Route path="contacts" element={<Contacts />}/>
+          <Route path="privacy" element={<PrivacyPolicy />}/>
+          <Route path="terms" element={<Terms />}/>
+          <Route path="*" element={<Error />} />
+
+        </Route>
+      </Routes>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

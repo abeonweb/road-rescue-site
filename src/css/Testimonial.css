@@ -1,0 +1,74 @@
+/* =============== SOCIAL PROOF =============== */
+.section__testimonial{
+    font-style: italic;
+    font-weight: 500;
+    color: #5e5e5e;
+  }
+  
+  .testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testimonial-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .testimonial-image-container{
+    order: 1
+  }
+  
+  .testimonial-image{
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  .testimonial-quote{
+    width: 85%;
+  }
+  
+  .testimonial-info{
+    order: 3;
+    font-size: 0.8em;
+    margin: 1.5em 0 0 3em;
+  }
+  
+
+@media (min-width: 600px){
+        
+    .testimonial-container{
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  
+    .testimonial-image-container{
+      order: 1;
+      width: 25%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    
+    .testimonial-quote{
+      order: 2;
+      width: 62%;
+      max-width: 550px;
+    }
+    
+    .testimonial-info{
+      order: 3;
+      font-size: 0.8em;
+    }
+  
+    .cta-container{
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  
