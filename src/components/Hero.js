@@ -18,10 +18,10 @@ function Hero() {
                     <h2 className="hero__phrase">Fix road defects fast</h2>
                     {/* <p className="hero__tagline">Solving road issues should not be an issue. Let us help out.</p> */}
                     <ul className="hero__tagline">
-                        <li>The number one solution to fix roads fast</li>
-                        <li>100% reliance</li>
-                        <li>Save money on repairs </li>
-                        <li>Trustworthy even in harsh conditions</li>
+                        <li className="hero__tagline-list">The number one solution to fix roads fast</li>
+                        <li className="hero__tagline-list">100% reliance</li>
+                        <li className="hero__tagline-list">Save money on repairs </li>
+                        <li className="hero__tagline-list">Trustworthy even in harsh conditions</li>
                     </ul>
                 </div>
                 <div className="cta-container">
