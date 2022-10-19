@@ -1,4 +1,5 @@
 @import-normalize;
+
 :root {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 62.5%;
@@ -52,7 +53,7 @@ body {
   margin: 0.5em 0 1em;
 }
 
-.features--subtitle{
+.features--subtitle {
   font-size: 2em;
   line-height: 1.2;
 }
@@ -71,13 +72,13 @@ body {
 }
 
 /* ============ LAYOUT ================ */
-.main{
-  background: rgb(252,249,246);
-background: linear-gradient(185deg, rgba(252,249,246,1) 0%, rgba(235,249,227,1) 28%, rgba(241,251,235,1) 52%, rgba(242,250,234,1) 79%, rgba(236,251,216,1) 100%);
+.main {
+  background: rgb(232, 252, 238);
+  background: linear-gradient(152deg, rgba(232, 252, 238, 1) 0%, rgba(242, 242, 251, 1) 46%, rgba(232, 252, 238, 1) 100%);
 }
 
 /* ================= Hero Section ================= */
-.hero-container{
+.hero-container {
   height: 90vh;
   /* min-width: 100vw; */
   background-image: url(./images/road-into-city.webp);
@@ -85,14 +86,18 @@ background: linear-gradient(185deg, rgba(252,249,246,1) 0%, rgba(235,249,227,1) 
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  position: relative;
 
 }
 
-.overlay{
+.overlay {
   height: 100%;
   width: 100%;
-  background: rgba(28, 28, 28, 0.67);
+  background: rgba(28, 28, 28, 0.57);
   overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 0;
 }
 
 .hero {
@@ -101,6 +106,10 @@ background: linear-gradient(185deg, rgba(252,249,246,1) 0%, rgba(235,249,227,1) 
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  top: 0;
+  z-index: 0;
+  padding: 0 1em;
 }
 
 
@@ -143,25 +152,32 @@ background: linear-gradient(185deg, rgba(252,249,246,1) 0%, rgba(235,249,227,1) 
   font-weight: 700;
   font-size: 2.7em;
   text-transform: capitalize;
-  line-height: 1.2;
+  line-height: 1.5;
+  letter-spacing: 2px;
   text-align: center;
-  padding: 0 1em 0.5em;
+  padding: 0 0 0.5em;
 
 }
 
 .hero__tagline {
   font-weight: 700;
-  font-size: 1.1em;
   text-transform: none;
   letter-spacing: 1px;
   line-height: 1.5;
   text-align: left;
   color: var(--clr-hl-3);
   max-width: 500px;
-  margin-bottom: .5em;
-  margin: 0 0 1em 1.5em;
-  list-style:circle;
+  margin: 0 0 2em 0;
+}
 
+.hero__tagline-list{
+  padding: 0 0 0 0.5em;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.hero__tagline-list::marker{
+  content: url(./images/check-mark.png);/*<a href="https://www.flaticon.com/free-icons/tick" title="tick icons">Tick icons created by Octopocto - Flaticon</a>*/
 }
 
 .catchphrase-links-container {
@@ -241,7 +257,7 @@ background: linear-gradient(185deg, rgba(252,249,246,1) 0%, rgba(235,249,227,1) 
 
 /* =============== BENEFITS =============== */
 
-.section__benefits{
+.section__benefits {
   padding-bottom: 0;
 }
 
@@ -286,7 +302,7 @@ background: linear-gradient(185deg, rgba(252,249,246,1) 0%, rgba(235,249,227,1) 
   text-align: center;
 }
 
-.features--subtitle{
+.features--subtitle {
   margin-bottom: 1em;
 }
 
@@ -312,31 +328,31 @@ background: linear-gradient(185deg, rgba(252,249,246,1) 0%, rgba(235,249,227,1) 
 
 /* =============== FAQ =============== */
 
-.section__faq{
+.section__faq {
   border-top: 1px solid var(--clr-hl-3);
   padding: 1em 0 4em;
   min-height: 60vh;
 }
 
-.faq-title{
+.faq-title {
   font-size: 2em;
   padding-top: 1em;
   padding-bottom: 0.3em;
 
 }
 
-.accordion{
+.accordion {
   padding-top: 4em;
   max-width: 80%;
   margin: 0 auto;
 }
 
-.accordion--title{
+.accordion--title {
   font-size: 1.2em;
   padding: 0.5em 1em;
 }
 
-.accordion-answer{
+.accordion-answer {
   padding-left: 1.5em;
 }
 
@@ -352,12 +368,12 @@ background: linear-gradient(185deg, rgba(252,249,246,1) 0%, rgba(235,249,227,1) 
     font-size: 2rem;
     letter-spacing: 2px;
   }
-  
+
   .hero__title--primary {
     font-size: 3rem;
   }
-  
-  
+
+
   .hero__title--secondary {
     font-size: 1rem;
     padding: 0.3em;
@@ -382,7 +398,7 @@ background: linear-gradient(185deg, rgba(252,249,246,1) 0%, rgba(235,249,227,1) 
 @media (min-width: 690px) {
   body {
     font-size: 1.6rem;
-  } 
+  }
 
   .cta-container {
     flex-direction: row;
@@ -408,13 +424,13 @@ background: linear-gradient(185deg, rgba(252,249,246,1) 0%, rgba(235,249,227,1) 
   .hero__title--primary {
     font-size: 5rem;
   }
-  
-  
+
+
   .hero__title--secondary {
     font-size: 1.4rem;
     padding: 0.5em 1.5em;
   }
-  
+
 
   .hero {
     min-height: 90vh;
