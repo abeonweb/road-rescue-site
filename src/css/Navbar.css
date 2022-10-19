@@ -107,7 +107,7 @@
 .hamburger,
 .hamburger::after,
 .hamburger::before {
-  background-color: var(--clr-hl-3);
+  background-color: var(--clr-hl-5);
   height: 4px;
   width: 2rem;
   border-radius: 1em;
@@ -119,7 +119,6 @@
 .sticky .hamburger::before {
   background-color: var(--clr-hl-4);
 }
-
 
 .nav-open .hamburger,
 .nav-open .hamburger::after,
@@ -316,7 +315,7 @@
   }
 
   .nav-link {
-    color: var(--clr-hl-3);
+    color: var(--clr-hl-5);
     text-decoration: none;
     font-size: 2rem;
     font-weight: var(--fw-bold);

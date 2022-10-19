@@ -10,6 +10,7 @@
   --clr-hl-2: #d52e2e;
   --clr-hl-3: #84f368e6;
   --clr-hl-4: #044538;
+  --clr-hl-5: #20CB31;
   --clr-light: #f7f7f7;
   --clr-dark: #1d1d1d;
   --clr-dark-2: #4a4949;
@@ -78,38 +79,38 @@ body {
 }
 
 /* ================= Hero Section ================= */
-.hero-container {
-  height: 90vh;
-  /* min-width: 100vw; */
+.hero-container{
+  height: 95vh;
   background-image: url(./images/road-into-city.webp);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 
 }
 
 .overlay {
   height: 100%;
   width: 100%;
-  background: rgba(28, 28, 28, 0.57);
+  background: rgb(73,74,73);
+background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0.35) 46%, rgba(68, 68, 68, 0.65) 100%);
   overflow: hidden;
   position: absolute;
   top: 0;
-  z-index: 0;
 }
 
 .hero {
   color: var(--clr-light);
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: space-between;
   position: relative;
-  top: 0;
-  z-index: 0;
-  padding: 0 1em;
+  z-index: 1;
 }
 
 
@@ -117,7 +118,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding: 0 1.5em; */
   font-family: 'Inter', sans-serif;
 }
 
@@ -128,16 +128,19 @@ body {
 }
 
 .hero__title {
-  color: var(--clr-hl-3);
+  color: var(--clr-hl-5);
   font-size: 2em;
   letter-spacing: .2rem;
   text-align: center;
-  margin: 5em 0 1em;
+  margin: 3em 0 1em;
   display: inline-block;
 }
 
 .hero__title--primary {
+  display: inline-block;
   font-size: 3rem;
+  padding-bottom: 0.2em;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 
 .hero__title--secondary {
@@ -145,17 +148,19 @@ body {
   text-transform: uppercase;
   display: block;
   font-size: 1rem;
-  letter-spacing: 0.01rem;
+  letter-spacing: 0.1rem;
+  background-color: var(--clr-hl-2);
+  padding: 0.2em 0.5em;
 }
 
 .hero__phrase {
   font-weight: 700;
   font-size: 2.7em;
   text-transform: capitalize;
-  line-height: 1.5;
-  letter-spacing: 2px;
+  text-shadow: 2px 4px 12px #000000;
+  line-height: 1.2;
   text-align: center;
-  padding: 0 0 0.5em;
+  padding: 0.7em 1em 0.3em;
 
 }
 
@@ -165,24 +170,40 @@ body {
   letter-spacing: 1px;
   line-height: 1.5;
   text-align: left;
-  color: var(--clr-hl-3);
+  color: var(--clr-light);
   max-width: 500px;
-  margin: 0 0 2em 0;
+  margin-bottom: .3em;
+  padding: 0 1em 0.5em 2em;
 }
 
-.hero__tagline-list{
+.hero__tagline-list {
   padding: 0 0 0 0.5em;
-  letter-spacing: 1.2px;
-  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  text-shadow: 2px 4px 8px #000000;
 }
 
-.hero__tagline-list::marker{
-  content: url(./images/check-mark.png);/*<a href="https://www.flaticon.com/free-icons/tick" title="tick icons">Tick icons created by Octopocto - Flaticon</a>*/
+.hero__tagline-list::marker {
+  content: url(./images/check-mark.png);
+  /* animation: flip 1000ms ease-in-out; */
 }
 
-.catchphrase-links-container {
+@keyframes flip {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+  
+}
+
+.catchphrase-container {
   display: flex;
   flex-direction: column;
+  gap: 1em;
   align-items: center;
   justify-content: space-between;
 }
@@ -197,30 +218,32 @@ body {
   justify-content: space-between;
 }
 
-.hero__cta {
+.hero__cta-btn {
   text-decoration: none;
   font-size: 1.5em;
-  font-weight: 700;
+  font-weight: 400;
   width: 200px;
   padding: 0.65em 1.3em;
   margin-bottom: 1.5em;
-  border: 3px solid #8f1818;
+  border: 3px solid var(--clr-hl-5);
+  border-radius: 10px;
 }
 
-.hero__cta--form {
-  background-color: #8f1818;
+.hero__cta-btn-form {
+  background-color: var(--clr-hl-5);
   color: rgb(245, 250, 253);
 }
 
-.hero__cta--contact {
-  color: rgb(245, 250, 253);
+.hero__cta-btn-contact {
   letter-spacing: 2px;
+  color: rgb(245, 250, 253);
 }
 
-.hero__cta:focus,
-.hero__cta:hover {
-  background-color: #d52e2e;
-  border: 3px solid #fcf8f8;
+.hero__cta-btn:focus,
+.hero__cta-btn:hover {
+  background-color: var(--clr-light);
+  border: 3px solid var(--clr-light);
+  color: var(--clr-hl-5);
 }
 
 /* ======== Utility ============ */
@@ -230,7 +253,7 @@ body {
   width: 0;
   height: 0;
   border: 20px solid rgb(38, 38, 38);
-  border-top-color: var(--clr-hl);
+  border-top-color: var(--clr-hl-5);
   border-left-color: transparent;
   border-right-color: transparent;
   border-bottom-color: transparent;
@@ -328,8 +351,9 @@ body {
 
 /* =============== FAQ =============== */
 
-.section__faq {
-  border-top: 1px solid var(--clr-hl-3);
+.section__faq{
+  border-top: 1px solid var(--clr-hl-5);
+  border-bottom: 1px solid var(--clr-hl-5);
   padding: 1em 0 4em;
   min-height: 60vh;
 }
@@ -361,43 +385,40 @@ body {
 
 @media (min-width: 280px) {
   body {
-    font-size: 1rem;
-  }
-
-  .hero__title {
-    font-size: 2rem;
-    letter-spacing: 2px;
-  }
-
-  .hero__title--primary {
-    font-size: 3rem;
-  }
-
-
-  .hero__title--secondary {
-    font-size: 1rem;
-    padding: 0.3em;
-    letter-spacing: 1px;
+    font-size: 1.2rem;
   }
 
 }
 
 @media (min-width: 350px) {
   body {
-    font-size: 1.4rem;
-  }
-
-  .hero__title {
-    font-size: 2.5rem;
-    letter-spacing: 2px;
+    font-size: 1.5rem;
   }
 
 }
 
 
-@media (min-width: 690px) {
+@media (min-width: 890px) {
   body {
     font-size: 1.6rem;
+  } 
+  .hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+  }
+  .hero{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .catchphrase-container {
+    
+  }
+
+  .hero__title {
+    margin: 1em 0;
   }
 
   .cta-container {
@@ -423,6 +444,7 @@ body {
 
   .hero__title--primary {
     font-size: 5rem;
+    padding-bottom: 0.4em;
   }
 
 
@@ -432,10 +454,6 @@ body {
   }
 
 
-  .hero {
-    min-height: 90vh;
-    justify-content: center;
-  }
 
 
   .hero__tagline {

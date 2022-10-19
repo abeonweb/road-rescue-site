@@ -56,7 +56,6 @@ function Navbar() {
                 <div className="nav-logo" >
                     <NavLink to="/road-rescue-site" end
                         className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
-                        onClick={handleClick}
                     >
                         <img src={logo} className="logo-nav" alt="" />
 
