@@ -16,17 +16,15 @@ export default function Services() {
           services.map((service, index) => {
             const { id, image, heading, body } = service
             return (
-              <article key={id} className="section section__service">
-                <div className={`product--feature ${index % 2 === 0 ? "right" : "left"}`}>
-                  <div className="image-container">
-                    <img className={`image`} src={require("../images/" + image + ".webp")} alt="" />
+              <article key={id} className={`section__service ${index % 2 === 0 ? "right" : "left"}`}>
+                  <div className="service-image-container">
+                    <img className="service-image" src={require("../images/" + image + ".webp")} alt="" />
                   </div>
-                  <div className="info">
+                  <div className="service-info">
 
                     <h5 className="heading" >{heading}</h5>
                     <p className="body" >{body}</p>
                   </div>
-                </div>
               </article>
             )
           })
