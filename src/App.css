@@ -164,7 +164,7 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
 
 }
 
-.hero__tagline {
+.hero__list {
   font-weight: 700;
   text-transform: none;
   letter-spacing: 1px;
@@ -173,24 +173,22 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
   color: var(--clr-light);
   max-width: 500px;
   margin-bottom: .3em;
-  padding: 0 1em 0.5em 2em;
+  padding: 0 1em 0.5em 4em;
 }
 
-.hero__tagline-list {
+.hero__list-item {
   padding: 0 0 0 0.5em;
   margin-bottom: 0.5em;
   text-shadow: 2px 4px 8px #000000;
 }
 
-.hero__tagline-list::marker {
+.hero__list-item::marker {
   content: url(./images/check-mark.png);
-  /* animation: flip 1000ms ease-in-out; */
 }
 
 @media (max-width: 300px){
-  .hero__tagline-list::marker {
+  .hero__list-item::marker {
     content: "";
-    /* animation: flip 1000ms ease-in-out; */
   }
 }
 
@@ -213,6 +211,7 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
   gap: 1em;
   align-items: center;
   justify-content: space-between;
+  margin: 0 0.6em;
 }
 
 .cta-container {
@@ -395,6 +394,10 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
     font-size: 1.2rem;
   }
 
+  .hero__list{
+    padding: 0 1em 0.5em 1em;
+  }
+
 }
 
 @media (min-width: 350px) {
@@ -421,7 +424,7 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
   }
 
   .catchphrase-container {
-    
+    margin: 0;
   }
 
   .hero__title {
@@ -463,7 +466,7 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
 
 
 
-  .hero__tagline {
+  .hero__list {
     padding: 0.5em 1.5em;
   }
 

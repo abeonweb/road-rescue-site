@@ -10,11 +10,10 @@ function Hero() {
 
                 <div className="catchphrase-container">
                     <h2 className="hero__phrase">Fix road defects fast</h2>
-                    {/* <p className="hero__tagline">Solving road issues should not be an issue. Let us help out.</p> */}
-                    <ul className="hero__tagline">
-                        <li className="hero__tagline-list">#1 solution to fix roads fast</li>
-                        <li className="hero__tagline-list">Save money on repairs </li>
-                        <li className="hero__tagline-list">Can be applied even in harsh conditions</li>
+                    <ul className="hero__list">
+                        <li className="hero__list-item">#1 solution to fix roads fast</li>
+                        <li className="hero__list-item">Save money on repairs </li>
+                        <li className="hero__list-item">Can be applied even in harsh conditions</li>
                     </ul>
                     <div className="cta-container">
                         <Link to="/road-rescue-site/#form" className="hero__cta-btn hero__cta-btn-form animate__animated animate__slideInLeft shadow">Get a quote</Link>
