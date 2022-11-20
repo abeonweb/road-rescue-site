@@ -1,10 +1,10 @@
 /* =============== PRODUCT FEATURES =============== */
 
-.section__product {
+.section-product {
     padding: 4em 0;
 }
 
-.section__services {
+.section-services {
     padding-top: 85px;
 }
 
@@ -13,23 +13,23 @@
 
 }
 
-.section__product--features {
+.section-product-features {
     padding: 2em 0;
 }
 
-.section__product--title {
+.section-product-title {
     margin-bottom: 2em;
     font-size: 1.5rem;
 }
 
-.product--feature{
+.product-feature{
     width: 100vw;
     display: flex;
     justify-content: space-between;
     background-color: rgb(214, 250, 216);
 }
 
-.product--feature{
+.product-feature{
     width: 50%;
     height: inherit;
     max-height: inherit;
@@ -50,7 +50,7 @@
     text-align: center;
 }
 
-.product--feature .info {
+.product-feature .info {
     color: var(--clr-hl-4);
     width: 50%;
     max-height: 40vh;
@@ -70,11 +70,9 @@
     margin-top: 0;
     margin-bottom: 0.5em;
     text-align: center;
-    max-width: 300p
-
 }
 
-.product--feature .body {
+.product-feature .body {
     padding: 0;
     font-weight: 500;
     max-width: 300px;
@@ -82,7 +80,8 @@
 }
 
 /* ============ SERVICES ============ */
-.section__service {
+.section-service,
+.product-feature {
     padding: 0;
     width: 100%;
     display: flex;
@@ -98,7 +97,8 @@
     margin: 0 auto 2em;
 }
 
-.service-info {
+.service-info,
+.product-info {
     color: var(--clr-hl-4);
     width: 100%;
     height: 100%;
@@ -111,18 +111,10 @@
 }
 
 
-.service-info .heading {
-    text-transform: capitalize;
-    font-size: 1.3em;
-    letter-spacing: 1px;
-    margin-top: 0;
-    margin-bottom: 0.5em;
-    text-align: center;
-    max-width: 300px;
 
-}
 
-.service-image{
+.service-image,
+.product-image{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -132,11 +124,13 @@
 /* ============ MEDIA QUERIES ============ */
 
 @media (min-width: 600px) {
-    .product--feature {
+    .product-feature {
         margin: 0 auto 0;
+        
     }
 
-    .service-image{
+    .service-image,
+    .product-image{
         width: 50%;
     }
 
@@ -150,7 +144,8 @@
         text-align: left;
     }
         
-    .service-info {
+    .service-info,
+    .product-info {
         color: var(--clr-hl-4);
         width: 50%;
         height: 100%;
