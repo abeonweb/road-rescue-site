@@ -8,7 +8,7 @@ import Error from './pages/Error';
 import SharedLayout from './pages/SharedLayout';
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Terms from "./pages/Terms";
-import Services from "./components/Services";
+import Services from "./pages/Services";
 
 function App() {
   return (

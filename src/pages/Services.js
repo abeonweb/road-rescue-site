@@ -17,9 +17,7 @@ export default function Services() {
             const { id, image, heading, body } = service
             return (
               <article key={id} className={`section__service ${index % 2 === 0 ? "right" : "left"}`}>
-                  <div className="service-image-container">
-                    <img className="service-image" src={require("../images/" + image + ".webp")} alt="" />
-                  </div>
+                  <img className="service-image" src={require("../images/" + image + ".webp")} alt="" />
                   <div className="service-info">
 
                     <h5 className="heading" >{heading}</h5>
