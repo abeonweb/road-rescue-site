@@ -16,10 +16,9 @@ export default function Services() {
           services.map((service, index) => {
             const { id, image, heading, body } = service
             return (
-              <article key={id} className={`section__service ${index % 2 === 0 ? "right" : "left"}`}>
+              <article key={id} className={`section-service ${index % 2 === 0 ? "right" : "left"}`}>
                   <img className="service-image" src={require("../images/" + image + ".webp")} alt="" />
                   <div className="service-info">
-
                     <h5 className="heading" >{heading}</h5>
                     <p className="body" >{body}</p>
                   </div>

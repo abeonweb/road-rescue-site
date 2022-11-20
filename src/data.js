@@ -43,7 +43,7 @@ const benefits =[
 const productFeatures =[
     {
         id: 1,
-        image:"emulsionbarrel_bg",
+        image:"rock_bg",
         heading: "Top Grade Asphalt Emulsion",
         body:"A key piece of what brings the asphalt to life is asphalt emulsion."
     },

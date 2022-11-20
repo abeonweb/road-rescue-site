@@ -340,7 +340,7 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
   margin: 1em 0 0.5em;
 }
 
-.feature .heading {
+.heading {
   text-transform: capitalize;
   text-align: center;
   font-size: 1.3em;
