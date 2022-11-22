@@ -7,7 +7,7 @@ export default function Services() {
       <section className="section__services">
         <h1 className="page--title">What we do</h1>
 
-        <h2 className="page--subtitle">Road Repair Services</h2>
+        <h2 className="page--subtitle">Scope of Services</h2>
         <p className="service--body">Our vision is to be able to foster Public Private Partnerships that will be beneficial to the community at large.
           With guided effort, we hope to collaborate with interested parties to bring about positive change for citizens, communities, and eventually the economy.
         </p>

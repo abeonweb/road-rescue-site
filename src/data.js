@@ -60,14 +60,32 @@ const services =[
     {
         id: 1,
         image:"workers",
-        heading: "Heavy equipment",
-        body:"A key piece of what brings the asphalt to life is asphalt emulsion."
+        heading: "Cold Mix Asphalt Production",
+        body:"Production and sale of Cold Mix Asphalt throughout Nigeria"
     },
     {
         id: 2,
         image:"worker",
-        heading: "Available workforce",
-        body:"A combination of dust and stone and chips are used to form a select aggregate, efficient for road repair."
+        heading: "Worker Training",
+        body:"Training of youth to go into road repair using Cold Mix Asphalt."
+    },
+    {
+        id: 3,
+        image:"workers",
+        heading: "Public sensitiztion",
+        body:"Informing the public of the use of Cold Mix Asphalt in road repairs, adding immediate value to the economy."
+    },
+    {
+        id: 4,
+        image:"worker",
+        heading: "Equipment",
+        body:"Making our services and equipment available for large scale projects."
+    },
+    {
+        id: 5,
+        image:"workers",
+        heading: "Sale and Maintenance of Specialized Vehicles",
+        body:"ASales and maintenance of VELOCITY machines."
     },
     
 ]
