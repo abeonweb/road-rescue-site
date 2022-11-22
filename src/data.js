@@ -43,13 +43,13 @@ const benefits =[
 const productFeatures =[
     {
         id: 1,
-        image:"rock_bg",
+        image:"emulsion",
         heading: "Top Grade Asphalt Emulsion",
         body:"A key piece of what brings the asphalt to life is asphalt emulsion."
     },
     {
         id: 2,
-        image:"rock_bg",
+        image:"rock",
         heading: "Stone Aggregate",
         body:"A combination of dust and stone and chips are used to form a select aggregate, efficient for road repair."
     },
@@ -59,33 +59,33 @@ const productFeatures =[
 const services =[
     {
         id: 1,
-        image:"workers",
+        image:"asphalt",
         heading: "Cold Mix Asphalt Production",
         body:"Production and sale of Cold Mix Asphalt throughout Nigeria"
     },
     {
         id: 2,
-        image:"worker",
+        image:"workers",
         heading: "Worker Training",
         body:"Training of youth to go into road repair using Cold Mix Asphalt."
     },
     {
         id: 3,
-        image:"workers",
-        heading: "Public sensitiztion",
+        image:"public_speaking",
+        heading: "Public sensitization",
         body:"Informing the public of the use of Cold Mix Asphalt in road repairs, adding immediate value to the economy."
     },
     {
         id: 4,
-        image:"worker",
+        image:"equipment",
         heading: "Equipment",
         body:"Making our services and equipment available for large scale projects."
     },
     {
         id: 5,
-        image:"workers",
+        image:"maintenance",
         heading: "Sale and Maintenance of Specialized Vehicles",
-        body:"ASales and maintenance of VELOCITY machines."
+        body:"At Road Rescue, we have after sales service and maintenance of VELOCITY machines."
     },
     
 ]
