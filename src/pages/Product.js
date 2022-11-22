@@ -13,7 +13,7 @@ export default function Product() {
                             const { id, image, heading, body } = feature
                             return (
                                 <div key={id} className={`product-feature ${index % 2 === 0 ? "right" : "left"}`}>
-                                    <img className="product-image" src={require("../images/" + image + ".png")} alt="" />
+                                    <img className="product-image" src={require("../images/" + image + ".webp")} alt="" />
                                     <div className="product-info">
                                         <h5 className="heading" >{heading}</h5>
                                         <p className="body" >{body}</p>
