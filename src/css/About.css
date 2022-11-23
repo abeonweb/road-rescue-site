@@ -60,6 +60,7 @@
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     border-top: 8px solid var(--clr-hl);
+    width: 90vw;
 }
 
 
@@ -108,7 +109,6 @@
 }
 
 .modal {
-    min-width: 90%;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -130,31 +130,31 @@
     .profile-container {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .management {
+        max-width: 600px;
+        padding: 1em 2.5em;
+        margin: 0;
+    }
 }
 
 @media (min-width: 1200px) {
 
-    .management {
-        background-color: #f0f8ff;
-        padding: 1em 2.5em;
-        align-items: center;
-        margin: 0;
-        max-width: 550px;
-    }
-
     .management-inner-container {
         display: flex;
         align-items: center;
+        gap: 2em;
     }
 
     .management-image-container {
-        width: 70%;
+        width: 50%;
+        min-width: 200px;
         margin: 0 auto;
         object-fit: contain;
     }
 
     .management-image {
-        width: 80%;
+        width: 100%;
         border-radius: 50%;
     }
 
