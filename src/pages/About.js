@@ -29,7 +29,7 @@ export default function About() {
                     local, state and National level in due time through the cascade effect.</p>
             </section>
             <section className="section section__management">
-                <h2 className="section--title">Our Management Team</h2>
+                <h2 className="section--title management-section-title">Our Management Team</h2>
                 <div className="profile-container">
                     {managementTeam}
                 </div>
