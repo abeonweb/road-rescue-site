@@ -17,7 +17,7 @@ export default function Modal({ open, onClose, id, image, name, title, descripti
                         <div className="management-info">
                             <h3 className="management-name">{name}</h3>
                             <h4 className="management-title">{title}</h4>
-                            <p className="management-body">{description}</p>
+                            <p className="management-description">{description}</p>
                         </div>
                     </div>
                 </article>
