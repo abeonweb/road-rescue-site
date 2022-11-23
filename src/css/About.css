@@ -1,19 +1,18 @@
-
 /* =============== TYPOGRAPHY ================ */
 
-.section__management{
+.section__management {
     width: 96%;
     margin: 0 auto;
     border-bottom: 1px solid var(--clr-hl);
 }
 
-.section--subtitle{
+.section--subtitle {
     padding: 1.5em 0 0.5em;
     letter-spacing: 1.5px;
 }
 
 .management-body,
-.about-body{
+.about-body {
     letter-spacing: 1px;
     font-weight: 500;
 }
@@ -21,40 +20,45 @@
 /* =============== LAYOUT ================ */
 
 .section__about,
-.section__management{
+.section__management {
     max-width: 900px;
     margin: 0 auto;
 }
 
-.section__management{
+.section__management {
     padding: 3.5em 0.5em 3.5em;
 }
 
+.profile-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .profile,
-.management{
+.management {
     letter-spacing: 1px;
     text-align: center;
     max-width: 350px;
     cursor: pointer;
 }
 
-.profile{
+.profile {
     background-color: transparent;
     padding: 1em 0.2em 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 2em auto;    
+    margin: 2em auto;
 }
 
 
-.management{
+.management {
     background-color: #f0f8ff;
     padding: 1em 1.5em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-bottom: 4em;    
+    grid-auto-rows: minmax(50px, auto);
+    margin-bottom: 4em;
     border-radius: 6px;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
@@ -63,36 +67,33 @@
 
 
 
-.management-info{
+.management-info {
     width: 100%;
     text-align: left;
-    overflow-y: scroll;
     font-size: 1.2rem;
     padding: 3em 0;
 }
 
 .profile-name,
-.management-name{
+.management-name {
     font-size: 1.5rem;
     padding: 0.2em 0;
 }
 
 .profile-title,
-.management-title{
+.management-title {
     font-size: 0.75em;
 }
 
 .profile-image-container,
-.management-image-container{
+.management-image-container {
     width: 100%;
-    margin: 0 auto;
-    object-fit: contain;
-    border-radius: 6px;
 }
 
 .profile-image,
-.management-image{
+.management-image {
     width: 50%;
+    object-fit: contain;
     border-radius: 50%;
 }
 
@@ -102,15 +103,15 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(25, 209, 123, 0.4);
+    background-color: rgba(25, 209, 123, 0.8);
     z-index: 1000;
 }
 
 .modal {
     position: fixed;
-    top: 10%;
-    left: 5%;
-    right: 5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 1000;
 }
 
@@ -120,4 +121,45 @@
     background-color: transparent;
     font-weight: bold;
     font-size: larger;
+}
+
+@media (min-width: 600px) {
+
+    .profile-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .management {
+        background-color: #f0f8ff;
+        padding: 1em 2.5em;
+        align-items: center;
+        margin: 0;
+        max-width: 550px;
+    }
+
+    .management-inner-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .management-image-container {
+        width: 70%;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+
+    .management-image {
+        width: 80%;
+        border-radius: 50%;
+    }
+
+    .management-info {
+        width: 100%;
+        text-align: left;
+        font-size: 1.2rem;
+        padding: 3em 1em;
+    }
 }

@@ -30,8 +30,9 @@ export default function About() {
             </section>
             <section className="section section__management">
                 <h2 className="section--title">Our Management Team</h2>
-                {managementTeam}
-
+                <div className="profile-container">
+                    {managementTeam}
+                </div>
             </section>
         </main>
     )

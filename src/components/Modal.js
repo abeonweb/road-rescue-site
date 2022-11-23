@@ -6,23 +6,23 @@ export default function Modal({ open, onClose, id, image, name, title, descripti
 
     return ReactDOM.createPortal(
         <>
-            <div className="modal-overlay"/>
+            <div className="modal-overlay" />
             <div className="modal">
                 <article key={id} className="management">
                     <button className="modal-close-btn" onClick={onClose}>X</button>
-                    <figure className="management-image-container">
-                        <img className="management-image" src={require("../images/" + image + ".webp")} alt="" />
-                        <figcaption>
+                    <div className="management-inner-container">
+                        <figure className="management-image-container">
+                            <img className="management-image" src={require("../images/" + image + ".webp")} alt="" />
+                        </figure>
+                        <div className="management-info">
                             <h3 className="management-name">{name}</h3>
                             <h4 className="management-title">{title}</h4>
-                        </figcaption>
-                    </figure>
-                    <div className="management-info">
-                        <p className="management-body">{description}</p>
+                            <p className="management-body">{description}</p>
+                        </div>
                     </div>
                 </article>
             </div>
         </>
-    , document.getElementById("portal"))
+        , document.getElementById("portal"))
 }
 
