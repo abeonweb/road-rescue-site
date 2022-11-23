@@ -95,34 +95,40 @@ const teamData = [
         name: "Mr. Michael Adegun",
         title: "CEO",
         description: "An entrepreneur par excellence, and a graduate of Accountancy from Obafemi Awolowo University (then University of Ile Ife). He currently also chairs Gloryland Group of Companies. In addition he is a Director in the Ile-Ife Business School, focused on raising entrepreneurs. He is responsible for bringing Road Rescue and Maintenance Company to life.",
-        image: "",
+        image: "headshot",
+        isOpen: false,
         id: 1
     },
     {
         name: "Mr. Abiodun Oke",
         title: "Executive Director Operations",
         description: "Stating his work career with the Department of Customs and Excise from 1976 to 1986. His entrepreneurial spirit resulted in the creation of Vabok Construction Company Ltd, a company specialized in creative design and construction. With experience in the completion of many public and private projects, he brings his knowledge onboard to Road Rescue and Maintenance.",
-        image: "",
+        image: "headshot",
+        isOpen: false,
         id: 2
     },
     {
         name: "Mr. A. Mustapha",
         title: "Executive Director Corporate Affairs",
         description: "Graduated from the University of Wisconsin, Milwaukee, USA in 1983 with a BSc in Mass Communication and a specialization in Radio/ TV production technology. Currently the MD/CEO, ATMUST58 Ventures Nigeria Ltd. His passion for youth empowerment was a principal motivation to join the team",
-        image: "",
+        image: "headshot",
+        isOpen: false,
         id: 3
     },
     {
         name: "Mr. A. Arinze",
         title: "Executive Director Business Development",
         description: "A fellow of the institute of Strategic Management, Nigeria. He holds a professional certification of The Ontario Hospital Association, Toronto, Canada. He is currently the CEO of Arigos Ltd, a company engaged in agricultural produce merchandising. He joins a team of like minds to go into the production of Cold Mix Asphalt with an eventual goal of greater expansion",
+        image: "headshot",
+        isOpen: false,
         id: 4
     },
     {
         name: "Mr. A. Egbinola",
         title: "Marketing Director",
         description: "A graduate of the University of Ibadan where he studied Biochemistry and majored in Genetics. His experience spans across various institutions: Sales, Marketing and Business Development. He became a partner in Christade Investment Nigeria Ltd, a company engaged inn construction and alternative energy. He is currently Director of Velocity Patching U.K.",
-        image: "",
+        image: "headshot",
+        isOpen: false,
         id: 5
     },
 ]
