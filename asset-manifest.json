@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/road-rescue-site/static/css/main.f1d19f35.css",
-    "main.js": "/road-rescue-site/static/js/main.2be9a22a.js",
-    "static/media/rock_bg.png": "/road-rescue-site/static/media/rock_bg.a4662f3ba11e21e948a8.png",
+    "main.css": "/road-rescue-site/static/css/main.691db827.css",
+    "main.js": "/road-rescue-site/static/js/main.798ab373.js",
+    "static/media/youthEmpowerment.webp": "/road-rescue-site/static/media/youthEmpowerment.837b7606a29d96a1f598.webp",
+    "static/media/financialGrowth.webp": "/road-rescue-site/static/media/financialGrowth.9596d51c8849cdfcd721.webp",
     "static/media/workers.webp": "/road-rescue-site/static/media/workers.af73cb5714571b031993.webp",
     "static/media/road-into-city.webp": "/road-rescue-site/static/media/road-into-city.2d6f2ca38dcdc7bc57ff.webp",
     "static/media/worker.webp": "/road-rescue-site/static/media/worker.d66bc2f29c528a63a344.webp",
@@ -23,11 +24,11 @@
     "index.html": "/road-rescue-site/index.html",
     "static/media/location.svg": "/road-rescue-site/static/media/location.a74d1acead0d4255c90386b8c07fc830.svg",
     "static/media/facebook.svg": "/road-rescue-site/static/media/facebook.c5b4826495f8cc539a956cd4c20c5a94.svg",
-    "main.f1d19f35.css.map": "/road-rescue-site/static/css/main.f1d19f35.css.map",
-    "main.2be9a22a.js.map": "/road-rescue-site/static/js/main.2be9a22a.js.map"
+    "main.691db827.css.map": "/road-rescue-site/static/css/main.691db827.css.map",
+    "main.798ab373.js.map": "/road-rescue-site/static/js/main.798ab373.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1d19f35.css",
-    "static/js/main.2be9a22a.js"
+    "static/css/main.691db827.css",
+    "static/js/main.798ab373.js"
   ]
 }
