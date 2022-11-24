@@ -49,6 +49,65 @@
     font-size: 1.2em;
 }
 
+.cutoff-text {
+    --max-lines: 6;
+    --line-height: 1.4;
+    max-height: calc(var(--max-lines) * 1em * var(--line-height));
+    line-height: var(--line-height);
+    position: relative;
+    overflow: hidden;
+}
+
+.cutoff-text:has(+ .expand-btn:not(:checked))::before {
+    content: "";
+    position: absolute;
+    height: calc(1em * var(--line-height));
+    width: 100%;
+    bottom: 0;
+    pointer-events: none;
+    background: linear-gradient(to bottom, transparent, var(--clr-light));
+
+}
+
+.expand-btn {
+    appearance: none;
+    margin-top: 0.5em;
+    cursor: pointer;
+    margin-bottom: 2em;
+    
+}
+
+/* .expand-btn:hover {
+    
+} */
+
+.expand-btn::before {
+    content: "Expand";
+    color: var(--clr-light);
+    letter-spacing: 1.2px;
+    position: absolute;
+    right: 5%;
+    border: 1px solid var(--clr-hl-4);
+    border-radius: 6px;
+    background-color: var(--clr-hl-4);
+    padding: 0.5em;
+}
+
+.expand-btn:hover::before {
+    color: var(--clr-hl-4);
+    border: 1px solid var(--clr-hl);
+    background-color: var(--clr-hl);
+}
+
+.expand-btn:checked::before { 
+    content: "Collapse";
+}
+
+.cutoff-text:has(+ .expand-btn:checked) {
+    max-height: none;
+}
+
+
 /* =============== LAYOUT ================ */
 
 .section__about,
