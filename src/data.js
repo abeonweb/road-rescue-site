@@ -126,7 +126,7 @@ const teamData = [
     {
         name: "Mr. A. Egbinola",
         title: "Marketing Director",
-        description: "A graduate of the University of Ibadan where he studied Biochemistry and majored in Genetics. His experience spans across various institutions: Sales, Marketing and Business Development. He became a partner in Christade Investment Nigeria Ltd, a company engaged inn construction and alternative energy. He is currently Director of Velocity Patching U.K.",
+        description: "A graduate of the University of Ibadan where he studied Biochemistry and majored in Genetics. His experience spans across various institutions: Sales, Marketing and Business Development. He became a partner in Christade Investment Nigeria Ltd, a company engaged in construction and alternative energy. He is currently Director of Velocity Patching U.K.",
         image: "headshot",
         isOpen: false,
         id: 5
