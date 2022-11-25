@@ -77,9 +77,6 @@
     
 }
 
-/* .expand-btn:hover {
-    
-} */
 
 .expand-btn::before {
     content: "Expand";
@@ -114,6 +111,11 @@
 .section__management {
     /* max-width: 900px; */
     margin: 0 auto;
+}
+
+.section__vision {
+    background-color: var(--clr-hl-4);
+    color: var(--clr-light);
 }
 
 .objective {
@@ -233,8 +235,6 @@
     cursor: pointer;
 }
 
-
-
 @media (min-width: 900px) {
     .objective {
         margin-top: 5em;
@@ -244,6 +244,10 @@
         flex-direction: row;
         align-items: flex-start;
         gap: 5em;
+    }
+
+    .objective:nth-child(odd) .objective-container {
+        flex-direction: row-reverse;
     }
 
     .about-body-title {
