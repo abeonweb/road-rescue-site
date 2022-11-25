@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path="/" element={<SharedLayout />} >
+        <Route path="/" element={<SharedLayout />} >
 
           <Route index element={<Home />}/>
           <Route path="product" element={<Product />}/>
