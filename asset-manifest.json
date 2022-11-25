@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/road-rescue-site/static/css/main.46c93545.css",
-    "main.js": "/road-rescue-site/static/js/main.1923796f.js",
+    "main.js": "/road-rescue-site/static/js/main.adce12e7.js",
     "static/media/pavedRoad.webp": "/road-rescue-site/static/media/pavedRoad.8ec3482ab33506dcf0d1.webp",
     "static/media/youthEmpowerment.webp": "/road-rescue-site/static/media/youthEmpowerment.837b7606a29d96a1f598.webp",
     "static/media/financialGrowth.webp": "/road-rescue-site/static/media/financialGrowth.9596d51c8849cdfcd721.webp",
@@ -26,10 +26,10 @@
     "static/media/location.svg": "/road-rescue-site/static/media/location.a74d1acead0d4255c90386b8c07fc830.svg",
     "static/media/facebook.svg": "/road-rescue-site/static/media/facebook.c5b4826495f8cc539a956cd4c20c5a94.svg",
     "main.46c93545.css.map": "/road-rescue-site/static/css/main.46c93545.css.map",
-    "main.1923796f.js.map": "/road-rescue-site/static/js/main.1923796f.js.map"
+    "main.adce12e7.js.map": "/road-rescue-site/static/js/main.adce12e7.js.map"
   },
   "entrypoints": [
     "static/css/main.46c93545.css",
-    "static/js/main.1923796f.js"
+    "static/js/main.adce12e7.js"
   ]
 }
