@@ -20,7 +20,7 @@ export default function Services() {
       </section>
       <section className="section-service">
         {
-          services.map((service, index) => {
+          services.map((service) => {
             const { id, image, heading, body } = service
             return (
               <article key={id} className={`section-service-article ${id % 2 === 0 ? "right" : "left"}`}>
