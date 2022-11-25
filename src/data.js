@@ -1,93 +1,93 @@
-const benefits =[
+const benefits = [
     {
         id: 1,
-        image:"save-money",
+        image: "save-money",
         heading: "Save Money",
-        body:"Using cold mix asphalt is a lot cheaper than regular asphalt mix. There's absolutely no need for heavy duty equipment to fix the road"
+        body: "Using cold mix asphalt is a lot cheaper than regular asphalt mix. There's absolutely no need for heavy duty equipment to fix the road"
     },
     {
         id: 2,
-        image:"save-time",
+        image: "save-time",
         heading: "Save time",
-        body:"The turnaround time from purchase to actual road repair can be instantaneous. Solve urgent road repairs in days not months."
+        body: "The turnaround time from purchase to actual road repair can be instantaneous. Solve urgent road repairs in days not months."
     },
     {
         id: 3,
-        image:"accident",
+        image: "accident",
         heading: "Prevent damage",
-        body:"Avoid loss of life and costly vehicle damage with timely repairs to damaged road infrastructure, improving quality of life and minimizing stress"
+        body: "Avoid loss of life and costly vehicle damage with timely repairs to damaged road infrastructure, improving quality of life and minimizing stress"
     }]
 
 
-    const features =[
-        {
-            id: 1,
-            image:"idea",
-            heading: "Innovation",
-            body:"Cold mix asphalt is made with an innovative blend of asphalt emulsion, stone dust and granite stone aggregate combined. This makes it suitable for roads"
-        },
-        {
-            id: 2,
-            image:"durable",
-            heading: "durability",
-            body:"It also has the ability to not absorb water. when compacted, it easily interlocks into place forming a permanent waterproof structure."
-        },
-        {
-            id: 3,
-            image:"storage",
-            heading: "storage",
-            body:"Stored in ready to go 25kg bags. The bags can be stored for up to 2 years allowing you to handle any street repairs at any time."
-        }
-    ]
-
-const productFeatures =[
+const features = [
     {
         id: 1,
-        image:"emulsion",
-        heading: "Top Grade Asphalt Emulsion",
-        body:"A key piece of what brings the asphalt to life is asphalt emulsion."
+        image: "idea",
+        heading: "Innovation",
+        body: "Cold mix asphalt is made with an innovative blend of asphalt emulsion, stone dust and granite stone aggregate combined. This makes it suitable for roads"
     },
     {
         id: 2,
-        image:"rock",
-        heading: "Stone Aggregate",
-        body:"A combination of dust and stone and chips are used to form a select aggregate, efficient for road repair."
-    },
-    
-]
-
-const services =[
-    {
-        id: 1,
-        image:"asphalt",
-        heading: "Cold Mix Asphalt Production",
-        body:"Production and sale of Cold Mix Asphalt throughout Nigeria"
-    },
-    {
-        id: 2,
-        image:"workers",
-        heading: "Worker Training",
-        body:"Training of youth to go into road repair using Cold Mix Asphalt."
+        image: "durable",
+        heading: "durability",
+        body: "It also has the ability to not absorb water. when compacted, it easily interlocks into place forming a permanent waterproof structure."
     },
     {
         id: 3,
-        image:"public_speaking",
+        image: "storage",
+        heading: "storage",
+        body: "Stored in ready to go 25kg bags. The bags can be stored for up to 2 years allowing you to handle any street repairs at any time."
+    }
+]
+
+const productFeatures = [
+    {
+        id: 1,
+        image: "emulsion",
+        heading: "Top Grade Asphalt Emulsion",
+        body: "A key piece of what brings the asphalt to life is asphalt emulsion."
+    },
+    {
+        id: 2,
+        image: "rock",
+        heading: "Stone Aggregate",
+        body: "A combination of dust and stone and chips are used to form a select aggregate, efficient for road repair."
+    },
+
+]
+
+const services = [
+    {
+        id: 1,
+        image: "asphalt",
+        heading: "Cold Mix Asphalt Production",
+        body: "Production and sale of Cold Mix Asphalt throughout Nigeria"
+    },
+    {
+        id: 2,
+        image: "workers",
+        heading: "Worker Training",
+        body: "Training of youth to go into road repair using Cold Mix Asphalt."
+    },
+    {
+        id: 3,
+        image: "public_speaking",
         heading: "Public sensitization",
-        body:"Informing the public of the use of Cold Mix Asphalt in road repairs, adding immediate value to the economy."
+        body: "Informing the public of the use of Cold Mix Asphalt in road repairs, adding immediate value to the economy."
     },
     {
         id: 4,
-        image:"equipment",
+        image: "equipment",
         heading: "Equipment",
-        body:"Making our services and equipment available for large scale projects."
+        body: "Making our services and equipment available for large scale projects."
     },
     {
         id: 5,
-        image:"maintenance",
+        image: "maintenance",
         heading: "Sale and Maintenance of Specialized Vehicles",
-        body:"At Road Rescue, we have after sales service and maintenance of VELOCITY machines."
+        body: "At Road Rescue, we have after sales service and maintenance of VELOCITY machines."
     },
-    
+
 ]
 
 const teamData = [
@@ -136,7 +136,7 @@ const teamData = [
 const links = [
     // {
     //     name: "Home",
-    //     link: "/road-rescue-site"
+    //     link: "/"
 
     // },
     {
@@ -161,4 +161,55 @@ const links = [
     },
 ]
 
-export {benefits, features, productFeatures, services, teamData, links}
+const about = [
+    {
+        image: "youthEmpowerment",
+        alt: "three people at a desk",
+        title: "Vision,  New Ideas. Innovation that can make a difference.",
+        body: `We believe in the employment of the young and vibrant workforce. Nigeria has a very young
+        population. With the average age of the population at around 18 years old, it is our strong
+        belief that empowering the youth directly through employment opportunities in the sector through
+        our endeavour at Road Rescue and Maintenance in conjunction with a well meaning Public sector can
+        bring about positive change. `,
+        id: 1
+    },
+    {
+        image: "financialGrowth",
+        alt: "economic growth graphic",
+        title: "Proper infrastructure leads to exponential economic growth",
+        body: `There is also the indirect impact of large scale infrastructure 
+        development on the economy. At Road Rescue Maintenance Company Limited our goal is to empower a portion 
+        of the working population. Unlocking the potential of more and more people to become sel employed, gainfully
+        employed through a value chain that is spurred by this affordable and easy to use technology.
+        
+     The improvement of road infrastructure allowing goods and services to go from point A to point B in a timely 
+        manner, with less loss and damage to property, which in turn will be crucial to economic growth at local, 
+        state and National level in due time through the cascade effect.`,
+        id: 2
+    },
+]
+
+const vision = [
+    {
+        text: "To produce Cold Mix Asphalt using the available labour in the country",
+        alt: "production",
+        image: "worker",
+    },
+    {
+        text: "Knowledge transfer to the youth to see the technology as a viable means of growth",
+        alt: "",
+        image: "worker",
+    },
+    {
+        text: "To enter into Public Private Partnerships (PPP) with the govenment so as to increase adoption of the technology",
+        alt: "",
+        image: "worker",
+    },
+    {
+        text: "Provide assistance to all interested parties when it comes to road repair emergency solutions.",
+        alt: "",
+        image: "worker",
+    },
+]
+
+export { benefits, features, productFeatures, services, teamData, links, about, vision }
