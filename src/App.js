@@ -14,8 +14,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<SharedLayout />} >
-
+        <Route exact path="/" element={<SharedLayout />} >
           <Route index element={<Home />}/>
           <Route path="product" element={<Product />}/>
           <Route path="services" element={<Services />}/>
@@ -23,8 +22,7 @@ function App() {
           <Route path="contacts" element={<Contacts />}/>
           <Route path="privacy" element={<PrivacyPolicy />}/>
           <Route path="terms" element={<Terms />}/>
-          <Route path="*" element={<Error />} />
-
+          <Route path="/*" element={<Error />} />
         </Route>
       </Routes>
     </div>
