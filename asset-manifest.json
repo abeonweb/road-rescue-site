@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c6ec489.css",
+    "main.css": "/static/css/main.e6999b59.css",
     "main.js": "/static/js/main.27d71aca.js",
     "static/media/pavedRoad.webp": "/static/media/pavedRoad.8ec3482ab33506dcf0d1.webp",
     "static/media/youthEmpowerment.webp": "/static/media/youthEmpowerment.837b7606a29d96a1f598.webp",
@@ -25,11 +25,11 @@
     "static/media/location.svg": "/static/media/location.a74d1acead0d4255c90386b8c07fc830.svg",
     "index.html": "/index.html",
     "static/media/facebook.svg": "/static/media/facebook.c5b4826495f8cc539a956cd4c20c5a94.svg",
-    "main.0c6ec489.css.map": "/static/css/main.0c6ec489.css.map",
+    "main.e6999b59.css.map": "/static/css/main.e6999b59.css.map",
     "main.27d71aca.js.map": "/static/js/main.27d71aca.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c6ec489.css",
+    "static/css/main.e6999b59.css",
     "static/js/main.27d71aca.js"
   ]
 }
