@@ -74,7 +74,7 @@
     margin-top: 0.5em;
     cursor: pointer;
     margin-bottom: 2em;
-    
+    position: relative;
 }
 
 
@@ -83,7 +83,6 @@
     color: var(--clr-light);
     letter-spacing: 1.2px;
     position: absolute;
-    right: 5%;
     border: 1px solid var(--clr-hl-4);
     border-radius: 6px;
     background-color: var(--clr-hl-4);
