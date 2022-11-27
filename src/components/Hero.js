@@ -9,7 +9,7 @@ function Hero() {
             <div className="hero">
 
                 <div className="catchphrase-container">
-                    <h2 className="hero__phrase">Fix road defects fast</h2>
+                    <h2 className="hero__phrase"><span className="hero-highlight">Fix</span> road defects <span className="hero-highlight">fast</span></h2>
                     <ul className="hero__list">
                         <li className="hero__list-item">#1 solution to fix roads fast</li>
                         <li className="hero__list-item">Save money on repairs </li>
