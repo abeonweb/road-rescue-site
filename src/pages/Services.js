@@ -26,8 +26,8 @@ export default function Services() {
               <article key={id} className={`section-service-article ${id % 2 === 0 ? "right" : "left"}`}>
                 <img className="service-image" src={require("../images/" + image + ".webp")} alt="" />
                 <div className="service-info">
-                  <h5 className="heading" >{heading}</h5>
-                  <p className="body" >{body}</p>
+                  <h5 className="service-heading" >{heading}</h5>
+                  <p className="service-body" >{body}</p>
                 </div>
               </article>
             )

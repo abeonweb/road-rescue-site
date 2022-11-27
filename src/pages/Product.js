@@ -15,8 +15,8 @@ export default function Product() {
                                 <div key={id} className={`product-feature ${index % 2 === 0 ? "right" : "left"}`}>
                                     <img className="product-image" src={require("../images/" + image + ".webp")} alt="" />
                                     <div className="product-info">
-                                        <h5 className="heading" >{heading}</h5>
-                                        <p className="body" >{body}</p>
+                                        <h5 className="product-heading" >{heading}</h5>
+                                        <p className="product-body" >{body}</p>
                                     </div>
                                 </div>
                             )
