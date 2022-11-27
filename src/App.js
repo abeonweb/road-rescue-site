@@ -15,14 +15,14 @@ function App() {
     <div className="App">
       <Routes>
         <Route exact path="/road-rescue-site" element={<SharedLayout />} >
-          <Route index element={<Home />}/>
-          <Route path="product" element={<Product />}/>
-          <Route path="services" element={<Services />}/>
-          <Route path="about" element={<About />}/>
-          <Route path="contacts" element={<Contacts />}/>
-          <Route path="privacy" element={<PrivacyPolicy />}/>
-          <Route path="terms" element={<Terms />}/>
-          <Route path="/*" element={<Error />} />
+          <Route index element={<Home />} />
+          <Route path="product" element={<Product />} />
+          <Route path="services" element={<Services />} />
+          <Route path="about" element={<About />} />
+          <Route path="contacts" element={<Contacts />} />
+          <Route path="privacy" element={<PrivacyPolicy />} />
+          <Route path="terms" element={<Terms />} />
+          <Route path="*" element={<Error />} />
         </Route>
       </Routes>
     </div>

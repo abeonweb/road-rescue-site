@@ -54,7 +54,7 @@ function Navbar() {
             <div className="hero-content-wrapper">
 
                 <div className="nav-logo" >
-                    <NavLink to="/" 
+                    <NavLink to="/road-rescue-site" 
                         end
                         className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
                     >
