@@ -191,25 +191,29 @@ const about = [
 
 const vision = [
     {
-        text: "To produce Cold Mix Asphalt using the available labour in the country",
-        alt: "production",
-        image: "worker",
+        title: "Production",
+        text: "To produce Cold Mix Asphalt using the available labour force present in the country",
+        alt: "well tarred road",
+        image: "production",
     },
     {
-        text: "Knowledge transfer to the youth to see the technology as a viable means of growth",
+        title: "Training",
+        text: "Knowledge transfer to interested parties, enabling use of the technology for growth",
         alt: "",
-        image: "worker",
+        image: "training",
     },
     {
-        text: "To enter into Public Private Partnerships (PPP) with the govenment so as to increase adoption of the technology",
-        alt: "",
-        image: "worker",
+        title: "Collaboration",
+        text: "Public Private Partnerships with the government to increase use of the technology",
+        alt: "two people shaking hands",
+        image: "collaboration",
     },
-    {
-        text: "Provide assistance to all interested parties when it comes to road repair emergency solutions.",
-        alt: "",
-        image: "worker",
-    },
+    // {
+    //     title: "",
+    //     text: "Provide assistance to all interested parties when it comes to road repair emergency solutions.",
+    //     alt: "",
+    //     image: "worker",
+    // },
 ]
 
 export { benefits, features, productFeatures, services, teamData, links, about, vision }
