@@ -18,7 +18,7 @@ export default function Features(){
 
     return (
         <section className="section section__features">
-          <h2 className="page--subtitle features--subtitle">How we achieve great results</h2>
+          <h2 className="features--title">How we achieve great results</h2>
           <Container fixed>
             <Grid container 
               columnSpacing={4} 
