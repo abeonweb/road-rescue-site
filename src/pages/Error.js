@@ -1,11 +1,17 @@
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
-export default function Error(){
+export default function Error() {
     return (
         <main className="main">
-            <h1 className="page--title">Oops!</h1>
-            <p>It seems something went wrong. Sorry about that.</p>
-            <Link to="/">Back to Homepage</Link>
+            <section className="section__error">
+                <h1 className="page--title">Oops! Seems you've taken a wrong turn</h1>
+                <div className="error-container">
+                    <p>It seems something went wrong. Sorry about that.</p>
+                    <div>
+                        <Link to="/road-rescue-site" className="error-link">Back to Homepage</Link>
+                    </div>
+                </div>
+            </section>
         </main>
     )
 }
