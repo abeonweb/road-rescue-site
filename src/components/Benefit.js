@@ -7,7 +7,7 @@ export default function Benefit(props) {
         <Grid item xs={4} md={4}>
             <Paper
                 className="benefit"
-                elevation={0}
+                elevation={5}
             >
                 <CardMedia
                     component="img"
