@@ -4,7 +4,7 @@
     padding: 3.5em 0;
     display: flex;
     flex-direction: column;
-    background-color: rgba(171, 251, 216, 0.3);
+    background-color: var(--clr-hl-4);
 }
 
 
@@ -15,11 +15,13 @@
     justify-content: center;
     min-height: 40vh;
     width: 90%;
-    color: #07715C;
+    color: var(--clr-hl);
     margin: 0 0.2em;
     padding: 0.5em;
     max-width: 600px;
     margin: 0 auto;
+    font-size: 0.8em;
+    letter-spacing: 1px;;
 }
 
 .contact--info:first-of-type {
@@ -75,6 +77,7 @@
 .contact--icon {
     width: 1.5em;
     padding-right: 0.5em;
+    margin-right: 1.5em;
 }
 
 
