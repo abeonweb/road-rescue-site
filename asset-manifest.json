@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/road-rescue-site/static/css/main.0c591a29.css",
+    "main.css": "/road-rescue-site/static/css/main.a3f72be8.css",
     "main.js": "/road-rescue-site/static/js/main.6398c6f1.js",
     "static/media/pavedRoad.webp": "/road-rescue-site/static/media/pavedRoad.8ec3482ab33506dcf0d1.webp",
     "static/media/production.webp": "/road-rescue-site/static/media/production.17d4e21aa267ddfca9a0.webp",
@@ -29,11 +29,11 @@
     "static/media/location.svg": "/road-rescue-site/static/media/location.8daf1cd0a72ee7276db9df2e9c917047.svg",
     "static/media/phone.svg": "/road-rescue-site/static/media/phone.9ae41c7726023482809f4b8b0d1a34c3.svg",
     "static/media/facebook.svg": "/road-rescue-site/static/media/facebook.c5b4826495f8cc539a956cd4c20c5a94.svg",
-    "main.0c591a29.css.map": "/road-rescue-site/static/css/main.0c591a29.css.map",
+    "main.a3f72be8.css.map": "/road-rescue-site/static/css/main.a3f72be8.css.map",
     "main.6398c6f1.js.map": "/road-rescue-site/static/js/main.6398c6f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c591a29.css",
+    "static/css/main.a3f72be8.css",
     "static/js/main.6398c6f1.js"
   ]
 }
