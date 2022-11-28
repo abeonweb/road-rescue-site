@@ -6,14 +6,14 @@
   line-height: 24px;
   font-weight: 400;
 
-  --clr-hl: #a8fcb0;
-  --clr-hl-2: #d52e2e;
-  --clr-hl-3: #84f368e6;
-  --clr-hl-4: #044538;
-  --clr-hl-5: #20CB31;
-  --clr-light: #f7f7f7;
-  --clr-dark: #1d1d1d;
-  --clr-dark-2: #4a4949;
+  --clr-hl: rgb(168, 252, 176);
+  --clr-hl-2: rgb(213, 46, 46);
+  --clr-hl-3: rgba(132, 243, 104, 0.902);
+  --clr-hl-4: rgb(4, 69, 56);
+  --clr-hl-5: rgb(32, 203, 49);
+  --clr-light: rgb(247, 247, 247);
+  --clr-dark: rgb(29, 29, 29);
+  --clr-dark-2: rgb(61, 61, 62);
 
   --fw-normal: 400;
   --fw-bold: 700;
@@ -276,6 +276,8 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
 
 .section__benefits {
   padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .benefit {
