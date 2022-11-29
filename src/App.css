@@ -77,10 +77,12 @@ body {
 /* ================= Hero Section ================= */
 .hero-container{
   height: 95vh;
+  background-color: rgba(168, 202, 225,0.2);
   background-image: url(./images/road-into-city.webp);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-blend-mode: overlay;
   overflow: hidden;
   position: relative;
   display: flex;
@@ -180,16 +182,14 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
   padding: 0 0 0 0.5em;
   margin-bottom: 0.5em;
   text-shadow: 2px 4px 8px #000000;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.hero__list-item::marker {
-  content: url(./images/check-mark.png);
-}
-
-@media (max-width: 300px){
-  .hero__list-item::marker {
-    content: "";
-  }
+.hero__list-icon{
+  margin-right: 0.5em;
 }
 
 
@@ -231,6 +231,7 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
 .hero__cta-btn-contact {
   letter-spacing: 2px;
   color: rgb(245, 250, 253);
+  /* margin-bottom: 3em; */
 }
 
 .hero__cta-btn:focus,
@@ -450,6 +451,10 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
   .hero{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero__cta-btn-contact {
+    margin-bottom: 1.5em;
   }
 
   .catchphrase-container {

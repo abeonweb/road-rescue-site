@@ -14,7 +14,7 @@
     letter-spacing: 3px;
     padding: 1em 0 2em;
     color: var(--clr-hl-4);
-  }
+}
 
 .section-product-features {
     padding: 2em 0;
@@ -25,25 +25,9 @@
     font-size: 1.5rem;
 }
 
-.product-feature{
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(214, 250, 216);
-}
 
-.product-feature{
-    width: 50%;
-    height: inherit;
-    max-height: inherit;
-    display: flex;
-    place-content: center;
-    background-color: var(--clr-hl-1);
-}
-
-
-
-.left, .right {
+.left,
+.right {
     text-align: center;
 }
 
@@ -53,18 +37,6 @@
 
 .right {
     flex-direction: column;
-}
-
-.product-info {
-    color: var(--clr-hl-4);
-    width: 50%;
-    max-height: 40vh;
-    padding: 2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
 }
 
 
@@ -84,11 +56,6 @@
     margin: 0 auto;
 }
 
-/* ============ SERVICES ============ */
-.section-service{
-    margin-top: 3em;
-}
-
 .section-service-article,
 .product-feature {
     padding: 0;
@@ -98,13 +65,43 @@
     align-items: center;
     background-color: rgb(255, 255, 255);
 }
+/* ============ SERVICES ============ */
+.section-service {
+    margin-top: 3em;
+}
 
-.scope-image{
-    width:100%;
+.scope-image {
+    width: 100%;
     height: 30vh;
-    background: url("../images/pavedRoad.webp") no-repeat;
+    background-color: #404040;
+    background-image: url("../images/pavedRoad.webp");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em;
+    margin-top: 3em;
+}
+
+.scope-image-text {
+    color: var(--clr-light);
+    font-size: 2em;
+    letter-spacing: 2px;
+
+}
+
+.scope-image-text-primary {
+    font-size: 1.2em;
+    color: var(--clr-hl);
+
+}
+
+.scope-image-text-secondary {
+    padding-top: 1.5em;
+
 }
 
 .scope-body {
@@ -138,7 +135,7 @@
 
 
 .service-image,
-.product-image{
+.product-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -150,33 +147,45 @@
 @media (min-width: 600px) {
     .product-feature {
         margin: 0 auto 0;
-        
+
     }
 
     .service-image,
-    .product-image{
+    .product-image {
         width: 50%;
     }
 
-    .left, .right {
+    .left,
+    .right {
         text-align: left;
     }
 
     .left {
         flex-direction: row;
     }
-    
+
     .right {
         flex-direction: row-reverse;
     }
-        
+
     .service-info,
     .product-info {
-        width: 50%;        
+        width: 50%;
     }
 
-    .scope-image{
+    .scope-image {
         height: 60vh;
+        padding: 3em;
     }
-    
+
+    .scope-image-text {
+        font-size: 4em;
+
+    }
+
+    .scope-image-text-primary {
+        font-size: 3em;
+
+    }
+
 }
