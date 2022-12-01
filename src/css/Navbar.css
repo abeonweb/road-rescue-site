@@ -28,13 +28,8 @@
   transform: translateX(150%);
   transition: transform 300ms ease-in-out;
   padding-top: 5em;
-  border-left: 3em solid var(--clr-hl-3);
-  border-image: linear-gradient(to bottom, var(--clr-hl-3), var(--clr-hl-4)) 1;
-}
-
-.nav-logo {
-  max-width: 50px;
-  margin-left: 0;
+  border-left: 1em solid var(--clr-hl-3);
+  border-image: linear-gradient(to bottom, var(--clr-hl), var(--clr-hl-3), var(--clr-hl-4)) 1;
 }
 
 .sticky .navbar {
@@ -46,7 +41,7 @@
 }
 
 .logo-nav {
-  width: 100%;
+  width: 50px;
 }
 
 .nav-list {
