@@ -12,7 +12,7 @@ export default function Modal({ open, onClose, id, image, name, title, descripti
                     <button className="modal-close-btn" onClick={onClose}>X</button>
                     <div className="management-inner-container">
                         <figure className="management-image-container">
-                            <img className="management-image" src={require("../images/" + image + ".webp")} alt="" />
+                            <img className="management-image" src={require("../images/" + image + ".png")} alt="" />
                         </figure>
                         <div className="management-info">
                             <h3 className="management-name">{name}</h3>

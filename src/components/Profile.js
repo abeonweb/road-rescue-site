@@ -10,7 +10,7 @@ const Profile = ({executive}) => {
         <div key={`profile-${id}`}>
             <article className="profile" onClick={() => setIsOpen(true)}>
                 <figure className="profile-image-container">
-                    <img className="profile-image" src={require("../images/" + image + ".webp")} alt="" />
+                    <img className="profile-image" src={require("../images/" + image + ".png")} alt="" />
                     <figcaption>
                         <h3 className="profile-name">{name}</h3>
                         <h4 className="profile-title">{title}</h4>
