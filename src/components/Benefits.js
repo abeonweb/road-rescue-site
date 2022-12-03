@@ -19,7 +19,7 @@ export default function Benefits(){
     
     return (
       <>
-      <div className="triangle animate__animated animate__shakeY animate__delay-2s animate__repeat-1 animate__slow"></div>
+    
         <section className='section section__benefits'>
         <Container fixed>
           <Grid container columnSpacing={3} rowSpacing={5} columns={{xs:4, md:12}}>
