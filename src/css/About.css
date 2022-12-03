@@ -1,5 +1,5 @@
 /* =============== TYPOGRAPHY ================ */
-.about-subtitle{
+.about-subtitle {
     font-size: larger;
     margin-bottom: 1em;
     color: var(--clr-hl-4);
@@ -95,7 +95,7 @@
     background-color: var(--clr-hl);
 }
 
-.expand-btn:checked::before { 
+.expand-btn:checked::before {
     content: "Collapse";
 }
 
@@ -113,7 +113,8 @@
 }
 
 .section__vision {
-    background-color: var(--clr-hl-4);
+    background: rgb(168, 252, 176);
+    background: radial-gradient(circle, rgba(168, 252, 176, 0.3) 0%, rgba(8, 77, 19, 1) 0%, rgba(4, 69, 56, 1) 100%);
     color: var(--clr-light);
     margin-top: 5em;
     padding-bottom: 5em;
@@ -126,7 +127,7 @@
     gap: 3em;
     max-width: 900px;
     margin: 0 auto;
-    
+
 }
 
 .vision-list-item {
@@ -149,7 +150,7 @@
     padding: 0 1.5em;
 }
 
-.vision-text-body{
+.vision-text-body {
     padding-bottom: 2em;
 }
 
@@ -205,12 +206,11 @@
 .management {
     background-color: #f0f8ff;
     padding: 1em 1.5em;
-    margin-bottom: 4em;
     border-radius: 6px;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     border-top: 8px solid var(--clr-hl);
-    width: 90vw;
+    width: 95vw;
 }
 
 
@@ -243,10 +243,16 @@
 
 .profile-image,
 .management-image {
-    width: 50%;
+    width: 100%;
     max-width: 150px;
     object-fit: contain;
     border-radius: 50%;
+}
+
+.management-description {
+    height: 25vh;
+    overflow-y: scroll;
+    font-size: 0.9em;
 }
 
 .modal-overlay {
@@ -335,7 +341,7 @@
 }
 
 @media (min-width: 1200px) {
-    .section__about{
+    .section__about {
         max-width: 1400px;
     }
 
@@ -362,4 +368,3 @@
         opacity: 1;
     }
 }
-
