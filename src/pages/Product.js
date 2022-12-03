@@ -6,7 +6,7 @@ export default function Product() {
         <main className="main">
             <h1 className="page--title">Cold Mix Asphalt</h1>
             <section className="section section-product">
-                <h2 className="section--title">Learn some more about the our asphalt.</h2>
+                <h2 className="section--title">What makes our asphalt the best choice.</h2>
                 <section className="section-product-features">
                     {
                         productFeatures.map((feature, index) => {
