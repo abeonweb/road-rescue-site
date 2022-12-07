@@ -74,10 +74,11 @@ body {
   background: linear-gradient(152deg, rgba(232, 252, 238, 1) 0%, rgba(242, 242, 251, 1) 46%, rgba(232, 252, 238, 1) 100%);
 }
 
+
 /* ================= Hero Section ================= */
-.hero-container{
+.hero-container {
   height: 95vh;
-  background-color: rgba(168, 202, 225,0.2);
+  background-color: rgba(168, 202, 225, 0.3);
   background-image: url(./images/road-into-city.webp);
   background-position: 50%;
   background-repeat: no-repeat;
@@ -94,8 +95,8 @@ body {
 .overlay {
   height: 100%;
   width: 100%;
-  background: rgb(73,74,73);
-background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0.35) 46%, rgba(68, 68, 68, 0.65) 100%);
+  /* background: rgba(73, 74, 73, 0.2); */
+  background: linear-gradient(to bottom,  rgba(0, 0, 0, 0.25) 25%, rgba(9, 9, 9, 0.85) 100%);
   overflow: hidden;
   position: absolute;
   top: 0;
@@ -104,15 +105,16 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
 .hero {
   color: var(--clr-light);
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   position: relative;
   z-index: 1;
 }
 
-.hero-highlight{
+.hero-highlight {
   color: var(--clr-hl);
+  text-shadow: 1px 4px 5px rgba(144, 146, 145, 0.3);
 }
 
 
@@ -140,9 +142,14 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
 
 .hero__title--primary {
   display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
   font-size: 3rem;
   padding-bottom: 0.2em;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  -webkit-text-fill-color: var(--clr-hl-4);
+  -webkit-text-stroke: 0.25px;
+  -webkit-text-stroke-color: var(--clr-light);
 }
 
 .hero__title--secondary {
@@ -158,8 +165,7 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
 .hero__phrase {
   font-weight: 700;
   font-size: 2.7em;
-  text-transform: capitalize;
-  text-shadow: 2px 4px 12px #000000;
+  text-shadow: 2px 4px 12px rgba(0, 0, 0, 0.4);
   line-height: 1.2;
   text-align: center;
   padding: 0.7em 1em 0.3em;
@@ -175,20 +181,20 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
   color: var(--clr-light);
   max-width: 500px;
   margin-bottom: .3em;
-  padding: 0 1em 0.5em 4em;
+  padding: 0 1em 0.5em;
 }
 
 .hero__list-item {
   padding: 0 0 0 0.5em;
   margin-bottom: 0.5em;
-  text-shadow: 2px 4px 8px #000000;
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
   list-style: none;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.hero__list-icon{
+.hero__list-icon {
   margin-right: 0.5em;
 }
 
@@ -214,7 +220,7 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
 
 .hero__cta-btn {
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 400;
   width: 200px;
   padding: 0.65em 1.3em;
@@ -241,6 +247,88 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
   color: var(--clr-hl-5);
 }
 
+
+
+.carousel {
+  width: 400%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  animation: slider 24s linear infinite;
+}
+
+.carousel-img {
+  position: relative;
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+
+  20% {
+    left: 0;
+  }
+
+  25% {
+    left: -100%;
+  }
+
+  45% {
+    left: -100%;
+  }
+
+  50% {
+    left: -200%;
+  }
+
+  70% {
+    left: -200%;
+  }
+
+  75% {
+    left: -300%;
+  }
+
+  95% {
+    left: -300%;
+  }
+
+  100% {
+    left: -400%;
+  }
+}
+
+.carousel-img-1 {
+  background: url(./images/road-into-city.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-img-2 {
+  background: url(./images/pavedRoad.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-img-3 {
+  background: url(./images/asphalt.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-img-4 {
+  background: url(./images/public_speaking.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
 /* ======== Utility ============ */
 
 /* triangle used to motion downward */
@@ -252,20 +340,13 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
   border-left-color: transparent;
   border-right-color: transparent;
   border-bottom-color: transparent;
-  margin: 1em auto;
+  margin: 0.05em auto;
   padding-bottom: 1em;
-}
-
-.page-logo {
-  max-width: 40px;
-  margin: 1em 0 0 0;
 }
 
 .section {
   padding: 4.5em 1.5em 3.5em;
 }
-
-
 
 .shadow {
   -webkit-box-shadow: 6px 19px 21px -18px rgba(38, 38, 38, 0.67);
@@ -321,7 +402,7 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
   margin-bottom: 1em;
 }
 
-.feature-image-container{
+.feature-image-container {
   display: inline-block;
   width: 70px;
   height: 70px;
@@ -357,11 +438,10 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
 
 /* =============== FAQ =============== */
 
-.section__faq{
-  border-top: 1px solid var(--clr-hl-5);
-  border-bottom: 1px solid var(--clr-hl-5);
+.section__faq {
   padding: 1em 0 4em;
   min-height: 60vh;
+  background-color: rgba(168, 252, 176, 0.2);
 }
 
 .faq-title {
@@ -389,11 +469,13 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
   padding: 1.5em;
 }
 
-.section__error {
+/* =============== ERROR PAGE =============== */
+.section__error,
+.section__success {
   height: 90vh;
-
 }
 
+.success-container,
 .error-container {
   width: 90%;
   max-width: 600px;
@@ -407,19 +489,49 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
   text-align: center;
 }
 
+.success-link,
 .error-link {
   text-decoration: none;
   cursor: pointer;
 }
 
 .error-link:active,
-.error-link:visited {
+.error-link:visited,
+.success-link:active,
+.success-link:visited {
   color: var(--clr-hl-2);
 }
 
-.error-link:hover {
+.error-link:hover,
+.success-link:hover {
   color: var(--clr-hl-5);
 }
+
+/* =============== POLICY =============== */
+.policy-main {
+  padding: 2em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.policy-main h1,
+.policy-main h2,
+.policy-main h3 {
+  padding-top: 2em;
+}
+
+.policy-main p {
+  padding-top: 1em;
+}
+
+.policy-main p:first-of-type {
+  padding-top: 2em;
+}
+
+.policy-main ul {
+  padding-left: 2em;
+}
+
 
 
 /* =============== MEDIA QUERIES =============== */
@@ -441,14 +553,13 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
 @media (min-width: 890px) {
   body {
     font-size: 1.6rem;
-  } 
-  .hero-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  
   }
-  .hero{
+
+  .overlay {
+    background: linear-gradient(to right,  rgba(0, 0, 0, 0.25) 36%, rgba(9, 9, 9, 0.85) 100%);
+  }
+
+  .hero {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -494,11 +605,8 @@ background: linear-gradient(180deg, rgba(222,246,255,0.8) 0%, rgba(60, 60, 65, 0
 
   .hero__title--secondary {
     font-size: 1.4rem;
-    padding: 0.5em 1.5em;
+    padding: 0.5em;
   }
-
-
-
 
   .hero__list {
     padding: 0.5em 1.5em;
