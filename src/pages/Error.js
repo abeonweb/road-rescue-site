@@ -8,7 +8,7 @@ export default function Error() {
                 <div className="error-container">
                     <p>It seems something went wrong. Sorry about that.</p>
                     <div>
-                        <Link to="/road-rescue-site" className="error-link">Back to Homepage</Link>
+                        <Link to="/" className="error-link">Back to Homepage</Link>
                     </div>
                 </div>
             </section>
