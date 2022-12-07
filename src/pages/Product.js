@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom"
 import "../css/Product.css"
 import { productFeatures } from "../data"
 
 export default function Product() {
     return (
-        <main className="main">
+        <main className="product-main">
             <h1 className="page--title">Cold Mix Asphalt</h1>
             <section className="section section-product">
                 <h2 className="section--title">What makes our asphalt the best choice.</h2>
@@ -23,6 +24,12 @@ export default function Product() {
                         })
                     }
                 </section>
+                <div className="banner-image">
+                    <div className="banner-overlay"></div>
+                    <p className="banner-image-text banner-image-text-primary">Road Rescue</p>
+                    <p className="banner-image-text banner-image-text-secondary">We pave the way</p>
+                    <Link to="/contacts" className="banner-btn">Get an Estimate</Link>
+                </div>
             </section>
         </main>
     )
