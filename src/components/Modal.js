@@ -6,8 +6,8 @@ export default function Modal({ open, onClose, id, image, name, title, descripti
 
     return ReactDOM.createPortal(
         <>
-            <div className="modal-overlay" />
-            <div className="modal">
+            <div className="modal-overlay" onClick={onClose}/>
+            <div className="modal" >
                 <article key={id} className="management">
                     <button className="modal-close-btn" onClick={onClose}>X</button>
                     <div className="management-inner-container">
