@@ -8,11 +8,7 @@ export default function Services() {
       <section className="section__services">
 
         <div>
-          <div className="scope-image">
-            <p className="scope-image-text scope-image-text-primary">Road Rescue</p>
-            <p className="scope-image-text scope-image-text-secondary">We pave the way</p>
-          </div>
-        <h2 className="section--title">Scope of Services</h2>
+          {/* <h2 className="section--title">Scope of Services</h2> */}
           <div>
             <p className="scope-body">Our vision is to be able to foster Public Private Partnerships that will be beneficial to the community at large.
               With guided effort, we hope to collaborate with interested parties to bring about positive change for citizens, communities, and eventually the economy.
