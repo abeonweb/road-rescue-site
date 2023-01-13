@@ -1,6 +1,6 @@
 {
   "name": "road-rescue-site",
-  "homepage": "https://abeonweb.github.io/road-rescue-site/",
+  "homepage": "https://roadrescuenigeria.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
+    "axios": "^1.2.1",
     "formik": "^2.2.9",
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
