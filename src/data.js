@@ -216,4 +216,19 @@ const vision = [
     // },
 ]
 
-export { benefits, features, productFeatures, services, teamData, links, about, vision }
+const testimonials = [
+    {
+        image: "socialProof",
+        text: `Our CDA decided to use Cold Mix Asphalt to repair our estate roads.
+        For me, living in the estate, It was very frustrating to see the sad state of the roads.
+        This was even made worse by the heavy rainfall that continued to erode the potholes.
+        Now, all that is fixed because of the decision to use this asphalt on the Estate
+        roads. It instantly solved the issues and no heavy equipment was used. The roads
+        were not even closed during the repairs.`,
+        info: "Olalekan Oke. Resident, Omole Estate Phase 2, Lagos."
+
+    }
+
+]
+
+export { benefits, features, productFeatures, services, teamData, links, about, vision, testimonials }
