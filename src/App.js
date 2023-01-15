@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<SharedLayout />} >
+        <Route path="road-rescue-site" element={<SharedLayout />} >
           <Route index element={<Home />} />
           <Route path="product" element={<Product />} />
           <Route path="services" element={<Services />} />
