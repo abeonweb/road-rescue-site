@@ -1,10 +1,10 @@
-import {Routes, Route} from "react-router-dom"
+import {Routes, Route, Navigate} from "react-router-dom"
 import './App.css';
 import Home from "./pages/Home"
 import Product from "./pages/Product"
 import About from "./pages/About"
 import Contacts from "./pages/Contacts"
-import Error from './pages/Error';
+// import Error from './pages/Error';
 import SharedLayout from './pages/SharedLayout';
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import CookiePolicy from "./pages/CookiePolicy";
@@ -26,7 +26,7 @@ function App() {
           <Route path="privacy" element={<PrivacyPolicy />} />
           <Route path="cookie-policy" element={<CookiePolicy />} />
           <Route path="terms" element={<Terms />} />
-          <Route path="*" element={<Error />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Route>
       </Routes>
     </div>
